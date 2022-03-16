@@ -60,6 +60,8 @@ img {
 
 .count {
   font-size: 4rem;
+  border: solid 1px var(--white);
+  padding: 0 1rem;
 }
 
 .buttons button {

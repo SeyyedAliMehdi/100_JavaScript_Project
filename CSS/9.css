@@ -60,6 +60,8 @@ img {
 
 .count {
   font-size: 4rem;
+  border: solid 1px var(--white);
+  padding: 0 1rem;
 }
 
 .buttons button {
@@ -86,3 +88,12 @@ button.add {
 button.reast {
   background-color: white;
 }
+#clear{
+  margin-top: 0px;
+  font-size: 1.4rem;
+  width: 200px;
+
+}
+
+
+

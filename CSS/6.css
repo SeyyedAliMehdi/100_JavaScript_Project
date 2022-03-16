@@ -7,8 +7,8 @@
   --light-blue: #005490;
   --color-primary: #9d0191;
   --color-sec: #db6400;
-  --grey: #eee;
-  --dark-grey: #222831;
+  --color-grey: #eee;
+  --color-dark-grey: #222831;
 }
 
 * {
@@ -38,51 +38,57 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+/* Start Here */
+body {
+  background: var(--light-blue);
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.counter-div {
+.pal {
   width: 40rem;
-  border: 1px solid var(--dark-grey);
-  padding: 2rem;
-  background-color: var(--light-blue);
-  color: var(--white);
-  text-align: center;
+  background: var(--white);
+  padding: 5rem 3rem;
   border-radius: 5px;
 }
 
-.counter-div > * {
-  margin-bottom: 2rem;
-}
-
-.count {
-  font-size: 4rem;
-}
-
-.buttons button {
-  padding: 1rem;
-  margin: 0 1rem;
-  font-size: 1.5rem;
-  outline: none;
+input {
+  width: 70%;
   border: none;
-  border-radius: 5px;
-  font-weight: 700;
-  cursor: pointer;
+  outline: none;
+  border-bottom: 2px solid var(--color-sec);
+  padding: 1rem 5px;
+  font-size: 1.6rem;
 }
 
-button.subtract {
-  background-color: orangered;
+button {
+  width: 25%;
+  padding: 1rem 5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
   color: var(--white);
+  background: var(--color-primary);
 }
 
-button.add {
-  background-color: green;
-  color: var(--white);
+p.result {
+  margin-top: 3.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-dark-grey);
 }
 
-button.reast {
-  background-color: white;
+.pp{
+    font-size:30px;
+    color:white;
+    text-align:center ;
 }

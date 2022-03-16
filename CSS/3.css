@@ -23,6 +23,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #31326f;
 }
 
 p {
@@ -60,6 +61,8 @@ img {
 
 .count {
   font-size: 4rem;
+  border: solid 1px var(--white);
+  padding: 0 1rem;
 }
 
 .buttons button {
