@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /*z-index: ;*/
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+    /*z-index: -1;*/
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.area{
+    background: #4e54c8;
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    width: 100%;
+    height:100vh;
+
+
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgba(255,255,255, .2);*/
+
+}
+
+
+
+.header-container{
+    width:200px;
+    height: 200px;
+}
+
+.buttons-container-list{
+    /*text-decoration: none;*/
+    list-style: none;
+    width: 100%;
+    height: 300px;
+}
+.app-container{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 2px  black;
+}
+
+.buttons-container-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.buttons-container-list li{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    user-select: none;
+    /*width:;*/
+    /*height: 100%;*/
+}
+
+.buttons-container-list li.nums{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.nums:hover, .ops:hover{
+    background-color: rgba(78, 84,200,.5);
+    box-shadow: 0 0 5px #4e54c8;
+    scale: 1.2;
+    border-radius: 3px;
+    /*background-color: red;*/
+}
+
+
+li.ops{
+    background-color: rgba(238, 238, 238, .5);
+    /*opacity: .7;*/
+}
+#equal{
+    background-color: rgba(78, 84, 200, .5);
+
+}
+
+#equal:hover{
+    background-color: rgb(78, 84, 200);
+}
+
+#number{
+    margin:20px;
+    font-size: 3.5rem;
+    position: absolute;
+    right: 0;
+}
+
+#expression{
+    width: 250px;
+    scroll-behavior: auto;
+}
+
+
+#line{
+    height: 1px;
+    width: 92%;
+    background-color: #4e54c8;
+    display: flex;
+    position: absolute;
+    left: 4%;
+    top: 160px;
+
+    /*border: 1px solid red;*/
+}
+/*#result{*/
+/*    width: 250px;*/
+/*    position: absolute;*/
+/*    !*left: 5px;*!*/
+/*    top: 160px;*/
+/*}*/
