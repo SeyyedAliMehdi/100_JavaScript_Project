@@ -12,33 +12,34 @@
 | 07  | Click to Copy |
 | 08  | Google Drive Download Link Generator |
 | 09  | Input Field Character Count |
-| 010  | Internet Connection Status Detector |
-| 02  | Quiz App |
-| 02  | API |
-| 02  |  HTTP Request Project - Part 1 |
-| 02  | HTTP Request Project - Part 2 - Random Quote Generator |
-| 02  | Weather App |
-| 02  | List Search Project |
-| 02  | Date Countdown |
-| 02  | Time Countdown |
-| 02  | Tip Calculator |
-| 02  | Smooth Scroll Effect |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
-| 02  |  |
+| 10  | Internet Connection Status Detector |
+| 11  | Quiz App |
+| 12  | API |
+| 13  |  HTTP Request Project - Part 1 |
+| 14  | HTTP Request Project - Part 2 - Random Quote Generator |
+| 15  | Weather App |
+| 16  | List Search Project |
+| 17  | Date Countdown |
+| 18  | Time Countdown |
+| 19  | Tip Calculator |
+| 20  | Smooth Scroll Effect |
+| 21  |  |
+| 22  |  |
+| 23  |  |
+| 24  |  |
+| 25  |  |
+| 26  |  |
+| 27  |  |
+| 28  |  |
+| 29  |  |
+| 30  |  |
+| 31  |  |
+| 32  |  |
+| 33  |  |
+| 34  |  |
+| 35  |  |
+| 36  |  |
+| 37  |  |
+| 38  |  |
+| 39  |  |
+| 40  |  |
