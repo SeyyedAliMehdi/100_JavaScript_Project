@@ -2,6 +2,7 @@
 100 SPA(Single Page Application) using Html, CSS, and JS
 
 Status: In Progress
+
 Contains all following SPA
 | #  | Second Header |
 | ------------- | ------------- |
