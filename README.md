@@ -1,6 +1,8 @@
 # 100_JavaScript_Project
 100 SPA(Single Page Application) using Html, CSS, and JS
 
+Status: In Progress
+Contains all following SPA
 | #  | Second Header |
 | ------------- | ------------- |
 | 01  | Counter App |
