@@ -95,4 +95,4 @@ Contains all following SPA
 | 87  | Stop Watch |
 | 88  | Vertical Timeline Project |
 | 89  | Music Player App |
-| 90  | TicToc Game |
+| 90  | Fancy Calculator |
